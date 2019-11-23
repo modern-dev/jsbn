@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run lint && tsc",
     "lint": "eslint ./src/**",
-    "publich": "npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "author": "Bohdan Shtepan <bohdan@modern-dev.com>",
   "license": "BSD",
