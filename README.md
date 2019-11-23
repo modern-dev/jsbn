@@ -8,16 +8,16 @@ Installation
 ------------
 
 ```shell script
-# npm install --save modern-dev/jsbn
+# npm install --save @modern-dev/jsbn
 ```
 
 Usage
 -----
 
 ```js
-var BigInteger = require('jsbn').BigInteger;
+import { BigInteger } from '@modern-dev/jsbn';
 
-var bi = new BigInteger('91823918239182398123');
+const bi = new BigInteger('91823918239182398123');
 console.log(bi.bitLength()); // 67
 ```
 
