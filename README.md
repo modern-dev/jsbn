@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```shell script
-# npm install --save @modern-dev/jsbn
+$ npm install --save @modern-dev/jsbn
 ```
 
 Usage
