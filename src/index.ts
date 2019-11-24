@@ -14,6 +14,8 @@ import SecureRandom, { Arcfour, rng_seed_time } from './secure-random';
 import { Classic, Barrett, Montgomery, NullExp } from './algorithms';
 import BigInteger from './big-integer';
 
+export { SecureRandom, Arcfour, rng_seed_time, Classic, Barrett, Montgomery, NullExp, BigInteger };
+
 export default {
   Arcfour,
   SecureRandom,
