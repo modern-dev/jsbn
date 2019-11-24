@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/@modern-dev/jsbn)
+![NPM](https://img.shields.io/npm/l/@modern-dev/jsbn)
+
 Tom Wu's `jsbn` library in TypeScript
 ===================================
 
