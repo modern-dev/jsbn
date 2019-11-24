@@ -13,8 +13,8 @@ import { IAlgorithm } from './algorithms';
 import SecureRandom from './secure-random';
 export default class BigInteger {
     [key: number]: number;
-    static ZERO: BigInteger;
-    static ONE: BigInteger;
+    static get ZERO(): BigInteger;
+    static get ONE(): BigInteger;
     DB: number;
     DM: number;
     DV: number;

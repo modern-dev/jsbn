@@ -1,1 +1,4 @@
 src/
+.idea/
+.eslintrc.json
+tsconfig.json

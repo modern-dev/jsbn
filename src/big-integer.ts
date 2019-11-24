@@ -233,11 +233,16 @@ function cbit(x: number): number {
   return r;
 }
 
-export default class BigInteger {
+export default  class BigInteger {
   [key: number]: number;
 
-  static ZERO: BigInteger = nbv(0);
-  static ONE: BigInteger = nbv(1);
+  static get ZERO(): BigInteger {
+    return nbv(0);
+  }
+
+  static get ONE(): BigInteger {
+    return nbv(1);
+  }
 
   DB: number = dbits;
   DM: number = ((1 << dbits) - 1);

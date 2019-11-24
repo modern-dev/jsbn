@@ -16,13 +16,13 @@ import BigInteger from './big-integer';
 
 export { SecureRandom, Arcfour, rng_seed_time, Classic, Barrett, Montgomery, NullExp, BigInteger };
 
-export default {
-  Arcfour,
-  SecureRandom,
-  rng_seed_time,
-  Barrett,
-  Classic,
-  Montgomery,
-  NullExp,
-  BigInteger
-};
+// export default {
+//   Arcfour,
+//   SecureRandom,
+//   rng_seed_time,
+//   Barrett,
+//   Classic,
+//   Montgomery,
+//   NullExp,
+//   BigInteger
+// };
