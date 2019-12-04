@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "module": "umd",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
     "allowJs": false,
-    "target": "es5",
+    "target": "es6",
     "lib": ["esnext", "dom"],
-    "outDir": "./lib",
     "strictNullChecks": true,
     "moduleResolution": "node",
     "declaration": true
