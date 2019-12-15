@@ -1,10 +1,11 @@
 {
   "name": "@modern-dev/jsbn",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "The jsbn library is a fast, portable implementation of large-number math in pure JavaScript, enabling public-key crypto and other applications on desktop and mobile browsers.",
   "main": "lib/cjs/index.js",
   "module": "lib/es6/index.js",
-  "types": "lib/index.d.ts",
+  "typings": "lib/cjs/index.d.ts",
+  "types": "lib/cjs/index.d.ts",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6",
     "build-cjs": "tsc --module commonjs --outdir ./lib/cjs",
